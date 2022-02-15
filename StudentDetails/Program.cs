@@ -27,6 +27,7 @@ class Program
 
         Student obj = new Student(Studentid, mark1, mark2, mark3, name);
         obj.SaveFile();
+        Console.WriteLine("hello world");
         
     }
 }
